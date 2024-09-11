@@ -16,7 +16,6 @@ def create_excel_report(df):
         totals_usd.to_excel(writer, sheet_name='Total by Client USD')
 
         workbook = writer.book
-        workbook = writer.book
         sheet1 = workbook['Transactions Summary']
         sheet2 = workbook['Total by Client USD']
         
