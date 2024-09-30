@@ -31,12 +31,15 @@ You can install these libraries using the following command:
 
 ```bash
 pip install pandas matplotlib openpyxl requests Pillow python-pptx seaborn
+```
 
 ### Installation:
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/andreacontrerasl/assessment-statement-mml.git
+```
+```bash
 cd assessment-statement-mml
 ```
 
