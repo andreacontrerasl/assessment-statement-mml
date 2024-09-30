@@ -31,8 +31,8 @@ pip install pandas matplotlib openpyxl requests Pillow python-pptx
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fpa-report-generator.git
-cd fpa-report-generator
+git clone https://github.com/andreacontrerasl/assessment-statement-mml.git
+cd assessment-statement-mml
 ```
 
 2. Ensure all necessary Python libraries are installed as mentioned in the prerequisites.
