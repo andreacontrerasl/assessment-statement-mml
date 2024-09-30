@@ -21,10 +21,11 @@ This is a Python-based GUI application that allows users to generate financial r
   - requests (for API data fetching)
   - Pillow (for handling image assets in PowerPoint)
   - python-pptx (for generating PowerPoint presentations)
+  - seaborn
  
 You can install these libraries using the following command:
 ```python
-pip install pandas matplotlib openpyxl requests Pillow python-pptx
+pip install pandas matplotlib openpyxl requests Pillow python-pptx seaborn
 ```
 
 ### Installation:
