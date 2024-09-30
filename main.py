@@ -14,7 +14,7 @@ def run_gui():
         folder_path.set(folder_selected)
 
     def execute_exercise3(final_df):
-        # Perform analysis and generate charts without currency conversion
+        # Perform analysis and generate charts
         update_progress("Performing analysis...")
         revenue_by_section = analyze_market_section(final_df)
         revenue_by_country = analyze_geography(final_df)
@@ -31,7 +31,7 @@ def run_gui():
         update_progress(f"Presentation generated in {output_dir}")
 
     def execute_actions():
-        global data_path  # Necessary if you want to use data_path in execute_exercise3
+        global data_path 
         data_path = folder_path.get()
         if not data_path:
             messagebox.showwarning("Warning", "Please select a data folder.")
@@ -110,7 +110,7 @@ def run_gui():
     action_frame = ttk.LabelFrame(main_frame, text="Select Actions to Perform", padding="10")
     action_frame.pack(fill='x', padx=10, pady=10)
 
-    # Use tk.Checkbutton instead of ttk.Checkbutton for wrapping text
+    # Use tk.Checkbutton for wrapping text
     tk.Checkbutton(action_frame, text="Generate Excel file with Total transactions per client, per currency and Totals by client, in USD.",
                     variable=var_ex1, wraplength=550).pack(anchor='w', padx=10, pady=2)
     tk.Checkbutton(action_frame, text="Generate Excel file filtered for the Latin American leaders with the transactions on Latin American countries and A list of all clients that had transactions with Russia, Cuba, China or Venezuela for the last quarter of 2024.",
