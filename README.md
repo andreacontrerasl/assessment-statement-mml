@@ -11,22 +11,26 @@ This is a Python-based GUI application that allows users to generate financial r
 
 ## Getting Started
 
-### Prerequisites:
-- Python 3.8 or higher
-- Required Python libraries:
-  - tkinter (for GUI)
-  - pandas (for data analysis)
-  - matplotlib (for chart generation)
-  - openpyxl (for Excel file manipulation)
-  - requests (for API data fetching)
-  - Pillow (for handling image assets in PowerPoint)
-  - python-pptx (for generating PowerPoint presentations)
-  - seaborn
- 
+## Prerequisites
+
+- **Python** 3.8 or higher
+- **Required Python libraries:**
+  - `tkinter` (for GUI)
+  - `pandas` (for data analysis)
+  - `matplotlib` (for chart generation)
+  - `openpyxl` (for Excel file manipulation)
+  - `requests` (for API data fetching)
+  - `seaborn` (for data visualization)
+  - `python-pptx` (for generating PowerPoint presentations)
+  - `Pillow` (for handling images in PowerPoint)
+  - `logging` (for logging errors and progress in the application)
+  
+### Install the Required Libraries
+
 You can install these libraries using the following command:
-```python
+
+```bash
 pip install pandas matplotlib openpyxl requests Pillow python-pptx seaborn
-```
 
 ### Installation:
 
