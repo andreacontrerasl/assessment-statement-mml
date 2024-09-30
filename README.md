@@ -23,7 +23,7 @@ This is a Python-based GUI application that allows users to generate financial r
   - python-pptx (for generating PowerPoint presentations)
  
 You can install these libraries using the following command:
-```bash
+```python
 pip install pandas matplotlib openpyxl requests Pillow python-pptx
 ```
 
